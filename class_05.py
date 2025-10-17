@@ -1,36 +1,36 @@
 # Arithmetic Operators
 # Base values
-num1 = 10
-num2 = 20
+# num1 = 10
+# num2 = 20
 # Addition (+)
-#sum = num1 + num2
+# sum = num1 + num2
 # print(f"Sum {num1} + {num2} = {sum}")
 
 # Subtraction (-)
-subtract = num2 - num1
+# subtract = num2 - num1
 # print(f"Subtract {num2} - {num1} = {subtract}")
 
 # Multiplication (*)
-multiply = num1 * num2
+# multiply = num1 * num2
 # print(f"Multiply {num1} * {num2} = {multiply}")
 
 #  Division (/)
 n1 = 4
 n2 = 2
 
-divide = n1 / n2
+# divide = n1 / n2
 # print(f"Divide {n2} / {n1   } = {divide}")
 
 # Floor Division (//)
-floor_division = n2 // n1
-# print(f"Floor Division {n2} // {n1} = {floor_division}")
+# floor_division = n2 // n1
+# # print(f"Floor Division {n2} // {n1} = {floor_division}")
 
 # Modulus (%)
-modulus = n1 % n2
+# modulus = n1 % n2
 # print(f"Modulus {n2} % {n1} = {modulus}")
 
 # Exponentiation (**)
-exponentiation = n1 ** n2
+# exponentiation = n1 ** n2
 # print(f"Exponentiation {n1} ** {n2} = {exponentiation}")
 
 
@@ -95,7 +95,15 @@ exponentiation = n1 ** n2
 #tricky = 20 - 10 * 2 / 3
 
 #print(tricky) 
-n5 =  12
+n5 =  20
 n6  = 14
-sum2 = n5 + n6
-print(sum2) 
+# sum2 = n5 + n6
+# print(sum2) 
+# sub = n6 - n5
+# print(sub)
+num8 : input = int(input("Enter first number: "))
+num9 : input = int(input("Enter second number: "))
+mul = num8 * num9
+# print(mul)
+div = num9 / num8
+print(div)
