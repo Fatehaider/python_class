@@ -23,36 +23,36 @@ print(students, "Original List")
 
 
 
-# Adding new student to the list
-students.append("haider")
-# List After Append ['Hassan', 'Ali', 'Ahmed', 'Omar', 'Sami', 'Zaid', 'haider']
-print(students , "List After Append")
-students.extend(["Ameer", "Khalid"])
-print(students , "List After Extend")
-# List After Extend ['Hassan', 'Ali', ,'Ahmed', 'Omar', 'Sami', 'Zaid', 'haider', 'Ameer', 'Khalid']
-students.insert(2, "Yasir")
-print(students , "List After Insert")
+# # Adding new student to the list
+# students.append("haider")
+# # List After Append ['Hassan', 'Ali', 'Ahmed', 'Omar', 'Sami', 'Zaid', 'haider']
+# print(students , "List After Append")
+# students.extend(["Ameer", "Khalid"])
+# print(students , "List After Extend")
+# # List After Extend ['Hassan', 'Ali', ,'Ahmed', 'Omar', 'Sami', 'Zaid', 'haider', 'Ameer', 'Khalid']
+# students.insert(2, "Yasir")
+# print(students , "List After Insert")
 
-# Removing Students from the list
-students.remove("Omar")
-print(students , "List After Removal")
+# # Removing Students from the list
+# students.remove("Omar")
+# print(students , "List After Removal")
 
-students.pop()
-print(students , "List After Pop")  
+# students.pop()
+# print(students , "List After Pop")  
 
-del students[1]
-print(students , "List After Del")
+# del students[1]
+# print(students , "List After Del")
 
-# updating a student name
-students[5] = "Zeeshan"
-print(students , "List After Update")
+# # updating a student name
+# students[5] = "Zeeshan"
+# print(students , "List After Update")
 
 # Slicing 
-print(students[149:201] , "List After Slicing")
-print(students[149:])
-print(students[:51] , "List After Slicing from start")
+# print(students[2:4] , "List After Slicing")
+# print(students[5:] , "list after Slicing from - to end")
+# print(students[:3] , "List After Slicing from start")
 
 
-print(students[0:201:3],"List After Slicing with step 2")
-# Thanks for Using Lists in Python
-print(len(students), "Length of List")
+print(students[1:6:2],"List After Slicing with step 2")
+# # Thanks for Using Lists in Python
+# print(len(students), "Length of List")
