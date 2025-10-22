@@ -104,4 +104,4 @@ else:
 
 
     print(f"No discount applied. Final price is: {total_price}")
-    
+cls
