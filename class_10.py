@@ -55,3 +55,4 @@ print(students[:51] , "List After Slicing from start")
 
 print(students[0:201:3],"List After Slicing with step 2")
 # Thanks for Using Lists in Python
+print(len(students), "Length of List")
