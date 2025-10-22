@@ -18,6 +18,7 @@ student6 = "Zaid"
 # Index       0      , 1    ,   2  ,   3   ,   4   ,   5
 students = ["Hassan", "Ali", "Ahmed", "Omar", "Sami", "Zaid"]
 print(students, "Original List")
+# 
 
 
 
@@ -53,3 +54,4 @@ print(students[:51] , "List After Slicing from start")
 
 
 print(students[0:201:3],"List After Slicing with step 2")
+# Thanks for Using Lists in Python
